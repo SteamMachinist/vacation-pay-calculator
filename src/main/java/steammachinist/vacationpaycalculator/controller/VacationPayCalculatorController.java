@@ -30,7 +30,7 @@ public class VacationPayCalculatorController {
                                           @RequestParam("startDate") LocalDate startDate,
                                           @RequestParam("endDate") LocalDate endDate) {
         if (startDate.isAfter(endDate)) {
-            throw new IllegalArgumentException("Start date must be the same day or earlier than end date.");
+            throw new IllegalArgumentException("Start date must be the same day or earlier than end date");
         }
         return calculatorService.calculatePayForDates(monthlySalary, startDate, endDate);
     }
