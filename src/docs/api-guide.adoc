@@ -1,0 +1,42 @@
+= Vacation pay calculator
+
+== Endpoints
+
+=== Get by number of days
+
+=== Get by number of days
+==== Request
+include::{snippets}/calculate-pay-by-days-number-test/http-request.adoc[]
+==== Response
+include::{snippets}/calculate-pay-by-days-number-test/http-response.adoc[]
+
+=== Get by number of days with negative days
+==== Request
+include::{snippets}/calculate-pay-by-days-number-negative-days-number-test/http-request.adoc[]
+==== Response
+include::{snippets}/calculate-pay-by-days-number-negative-days-number-test/http-response.adoc[]
+
+=== Get by dates
+=== Get by dates, week with weekends
+==== Request
+include::{snippets}/calculate-pay-by-dates-weekends-test/http-request.adoc[]
+==== Response
+include::{snippets}/calculate-pay-by-dates-weekends-test/http-response.adoc[]
+
+=== Get by dates, week with weekends and holiday
+==== Request
+include::{snippets}/calculate-pay-by-dates-holiday-test/http-request.adoc[]
+==== Response
+include::{snippets}/calculate-pay-by-dates-holiday-test/http-response.adoc[]
+
+=== Get by dates with negative salary
+==== Request
+include::{snippets}/calculate-pay-by-dates-negative-monthly-salary-test/http-request.adoc[]
+==== Response
+include::{snippets}/calculate-pay-by-dates-negative-monthly-salary-test/http-response.adoc[]
+
+=== Get by dates with start date greater than end date
+==== Request
+include::{snippets}/calculate-pay-by-dates-start-greater-then-end-test/http-request.adoc[]
+==== Response
+include::{snippets}/calculate-pay-by-dates-start-greater-then-end-test/http-response.adoc[]

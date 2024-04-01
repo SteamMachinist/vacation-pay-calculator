@@ -45,5 +45,6 @@ tasks.test {
 
 tasks.asciidoctor {
 	inputs.dir(project.extra["snippetsDir"]!!)
+	sourceDir("src/docs")
 	dependsOn(tasks.test)
 }
